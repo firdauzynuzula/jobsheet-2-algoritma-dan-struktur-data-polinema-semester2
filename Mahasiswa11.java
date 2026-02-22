@@ -1,5 +1,3 @@
-public class Mahasiswa11 {
-    
 
     class Mahasiswa {
         String nama;
@@ -36,4 +34,3 @@ public class Mahasiswa11 {
             }
         }
     }
-}
