@@ -23,5 +23,19 @@ public class MataKuliahMain {
 
         System.out.println("\nInformasi Mata Kuliah Setelah Pengurangan Jam:");
         mk1.tampilkanInformasi();
+
+        MataKuliah11 mk2 = new MataKuliah11();
+        mk2.kodeMk = "MK002";
+        mk2.nama = "Struktur Data";
+        mk2.sks = 3;
+        mk2.jumlahJam = 10;
+
+        System.out.println("\nInformasi Mata Kuliah 2:");
+        mk2.tampilkanInformasi();
+
+        mk2.ubahsks(4);
+        mk2.tambahJam(20);
+        System.out.println("\nInformasi Mata Kuliah 2 Setelah Perubahan:");
+        mk2.tampilkanInformasi();
     }
 }
