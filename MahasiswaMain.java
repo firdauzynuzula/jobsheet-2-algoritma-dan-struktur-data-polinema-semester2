@@ -18,5 +18,12 @@ public class MahasiswaMain {
 
         mhs2.updateIPK(3.30);
         mhs2.tampilkanInformasi();
+
+        Mahasiswa Brokaka = new Mahasiswa();
+        Brokaka.nama = "BroKaka";
+        Brokaka.nim = "01297121928";
+        Brokaka.kelas = "TI 3A";
+        Brokaka.ipk = 4.00;
+
     }
 }
