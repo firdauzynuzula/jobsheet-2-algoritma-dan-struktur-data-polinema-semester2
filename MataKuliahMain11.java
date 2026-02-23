@@ -1,4 +1,4 @@
-public class MataKuliahMain {
+public class MataKuliahMain11 {
     
     public static void main(String[] args) {
         
